@@ -4,7 +4,7 @@
 WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
-WEB_PASSWORD=${WEB_PASSWORD:-'hubin162577'}
+WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
 generate_config() {
   cat > /tmp/config.json << EOF
